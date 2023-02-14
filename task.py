@@ -8,7 +8,7 @@ window.geometry("1000x900")
 window.title("STUDENT DATABASE FORM")
 # ______________________________________________________make_connection__________________________________________
 global con
-con = connector.connect(host='localhost', port='3306', user='root', password='sandeep@8105')
+con = connector.connect(host='localhost', port='3306', user='root', password='*******')
 print("connection made")
 # _____________________________________________________________create_database___________________________________
 
